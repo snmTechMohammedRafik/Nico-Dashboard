@@ -1,0 +1,27 @@
+.modal-content {
+    border-radius: 10px;
+  }
+  
+  .modal-header {
+    background-color: #4B49AC;
+    color: white;
+  }
+  
+  .modal-footer {
+    background-color: #f1f1f1;
+  }
+  
+  .btn-primary {
+    background-color: #4B49AC;
+    border-color: #4B49AC;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3a3a94;
+    border-color: #3a3a94;
+  }
+  
+  .form-text {
+    color: red;
+  }
+  

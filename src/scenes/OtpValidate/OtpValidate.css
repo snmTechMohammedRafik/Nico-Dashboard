@@ -1,0 +1,37 @@
+.otp-validate-container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 20px;
+    
+    
+  }
+  .text-center{
+    color: #4B49AC;
+  }
+  
+  .otp-validate-form {
+    /* background-color: white; */
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .otp-validate-form h2 {
+    margin-bottom: 1.5rem;
+    color: #4B49AC;
+  }
+  
+  .otp-validate-button {
+    margin-top: 1rem;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 1rem;
+    color: red;
+  }
+  

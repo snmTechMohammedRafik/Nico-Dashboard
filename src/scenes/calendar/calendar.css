@@ -1,0 +1,133 @@
+/* Calendar container styles */
+.calendar-container-angel {
+  background-color: #f5faff; /* Soft angelic blue */
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 450px;
+  margin: 0 auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.calendar-container-angel:hover {
+  transform: scale(1.03); /* Slight zoom effect on hover */
+}
+
+/* Calendar general styles */
+.custom-calendar-angel {
+  width: 100%;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05); /* Soft shadow for the calendar */
+  padding: 15px;
+}
+
+/* Navigation styles */
+.custom-calendar-angel .react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #3e3d56;
+}
+
+.custom-calendar-angel .react-calendar__navigation button {
+  background: none;
+  border: none;
+  color: #8a4eff; /* Soft purple for navigation buttons */
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s ease;
+}
+
+.custom-calendar-angel .react-calendar__navigation button:hover {
+  color: #6b33ff; /* Deeper purple on hover */
+  transform: scale(1.1);
+}
+
+/* Weekend and active date styling */
+.custom-calendar-angel .react-calendar__month-view__days__day--weekend {
+  color: #ff6b6b; /* Soft red for weekends */
+}
+
+.custom-calendar-angel .react-calendar__tile {
+  background: none;
+  border: none;
+  color: #3e3d56;
+  text-align: center;
+  padding: 10px 0;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.custom-calendar-angel .react-calendar__tile--now {
+  background: linear-gradient(135deg, #6b33ff, #6b33ff); /* Soft golden gradient for today */
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-calendar-angel .react-calendar__tile--active {
+  background: linear-gradient(135deg, #7f63ff, #3e3bff); /* Angelic purple gradient for active */
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-calendar-angel .react-calendar__tile:hover {
+  background-color: #e0d7ff;
+  color: #3e3d56;
+  transform: translateY(-3px); /* Lift effect on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Soft shadow on hover */
+}
+
+/* Event marker styles */
+.event-marker {
+  background-color: #ff5252;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Events list styles */
+.events-list {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+  color: #3e3d56;
+}
+
+.events-list h3 {
+  font-size: 1.6rem;
+  color: #6b33ff;
+  margin-bottom: 10px;
+}
+
+.events-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.events-list li {
+  font-size: 1.2rem;
+  padding: 8px 0;
+  color: #333;
+}
+
+.events-list li::before {
+  content: '•';
+  color: #ff5252;
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+
+.events-list p {
+  font-size: 1.2rem;
+  color: #6b33ff;
+}

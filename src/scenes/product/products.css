@@ -1,0 +1,57 @@
+/* Product.css */
+
+/* General Styles */
+.main-table {
+    margin: 16px;
+  }
+  
+  /* Row and Column Styles */
+  .mb-3.m-2 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  
+  /* Table Styles */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Filter Label Styles */
+  .filter-label {
+    color: #000000;
+  }
+  
+  /* Filter Create Button */
+  .filterCreateButton {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Pagination Controls */
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Form Control Styles */
+  .form-control:invalid {
+    border-color: #dc3545;
+  }
+  

@@ -1,0 +1,46 @@
+.modal-header-custom {
+  background-color: #4B49AC;
+  color: white;
+}
+
+.modal-header-custom .close {
+  color: white;
+}
+
+.add-user-btn {
+  background-color: #4B49AC;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.add-user-btn:hover {
+  background-color: #3a389d;
+}
+
+.form-control {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  color: black; /* Change color to black */
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.text-muted {
+  color: #ff4b4b !important;
+}
+
+.required-asterisk {
+  color: red;
+  margin-left: 4px;
+}
+

@@ -1,0 +1,59 @@
+.custom-modal .modal-content {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-modal-header {
+    background-color: #4A4A4A;
+    color: white;
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .custom-modal-header .modal-title {
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  .custom-input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    margin-bottom: 1rem;
+  }
+  
+  .custom-input::placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  
+  .custom-button {
+    background-color: #4A4A4A;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .custom-button:hover {
+    background-color: #6A6A6A;
+  }
+  
+  .custom-modal-footer {
+    border-top: none;
+  }
+  
+  .genral-follow-up-container .add-button {
+    background-color: #4A4A4A;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .genral-follow-up-container .add-button:hover {
+    background-color: #6A6A6A;
+  }
+  

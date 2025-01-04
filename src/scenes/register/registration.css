@@ -1,0 +1,55 @@
+.Registration-container {
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #4B49AC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: "100vh";
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    color: rgb(34, 34, 34);
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .Login-btn-primary {
+    background-color: white;
+    color: hsl(241, 40%, 48%);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .Login-btn-primary:hover {
+    background-color: #f1f1f1;
+    color: #4B49AC;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+
+  .forgot-password-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #dfdfdf;
+    text-decoration: none;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  

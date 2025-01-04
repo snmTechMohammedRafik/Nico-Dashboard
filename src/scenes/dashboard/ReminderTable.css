@@ -1,0 +1,111 @@
+/* Custom styles for the table container */
+.genralfollowup-table-container {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  top: 440px;
+  left: 332px;
+}
+
+/* Allow text to wrap inside the table cells */
+.genralfollowup-table-container table td {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.table-responsive{
+  
+    height: 490px;
+    width: 100%;
+}
+
+
+
+/* Custom styles for the table */
+.genralfollowup-table-container .table {
+  border-collapse: collapse; /* Collapse borders to avoid spacing between cells */
+  width: 100%; /* Ensure the table takes full width of its container */
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+  border: none; /* Remove borders from table cells */
+}
+
+/* Custom styles for the buttons */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.table td .btn {
+  width: 70px;
+  padding: 5px 0;
+  margin: 2px;
+}
+
+.modal-header-custom {
+  background-color: #f0f8ff;
+  border-bottom: none;
+}
+
+.modal-title-custom {
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.modal-body-custom {
+  background-color: #fafafa;
+  padding: 30px;
+}
+
+.modal-detail {
+  margin-bottom: 15px;
+}
+
+.modal-label {
+  color: #6A5ACD;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.modal-value {
+  color: #333;
+  margin-left: 10px;
+}
+
+.modal-button-wrapper {
+  text-align: center;
+}
+
+.modal-close-button {
+  background-color: #6A5ACD;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modal-close-button:hover {
+  background-color: #5B4DA1;
+}
+
+.due-date-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}

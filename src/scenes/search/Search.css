@@ -1,0 +1,16 @@
+.filter-search-input-wrapper {
+    position: relative;
+  }
+  
+  .filter-search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+  }
+  
+  .filter-search-input {
+    padding-left: 30px;
+  }
+  
