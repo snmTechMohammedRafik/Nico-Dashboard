@@ -10,7 +10,7 @@ A web-based admin dashboard built with **React.js** and **React Router DOM** for
 
 ## 📸 Screenshots  
 ### Dashboard View  
-  ![Dashboard Screenshot](screenshots/Screenshot (350).png)
+  ![Dashboard Screenshot](screenshots/Screenshot%20(361).png)
 
 
  
